@@ -66,7 +66,7 @@ section > p{
 section.normal{
     background-color: white;
     color: black;
-    padding-bottom: 200px;
+    padding-bottom: 2em;
 }
 
 section.imagem{
@@ -76,10 +76,11 @@ section.imagem{
     
 }
 
-section.imagem > p {
+section.imagem  > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.255);
+    margin: 10px 0 2em 5px;
+    background-color: rgba(0, 0, 0, 0.438);
     text-shadow: 1px 1px  0px black;
     
 }
@@ -96,8 +97,8 @@ section#img001{
 }
 
 section#img002{
-    background-image: url(../imagens/manoel3.webp);
-    background-position: center center;
+    background-image: url(../imagens/manoelgomes.webp);
+    background-position: top center;
     background-size: cover;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.555);
     background-attachment: fixed;
@@ -111,7 +112,7 @@ text-align: center;}
 
 footer > p{
     font-weight: bolder;
-    font-size: 1vw;
+    font-size: 2vw;
     padding-top: 20px;
 }
 
