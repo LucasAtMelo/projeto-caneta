@@ -89,7 +89,7 @@ section.imagem > p {
 
 section#img001{
     background-image: url(../imagens/manoel-gomes-autor-de-caneta-azul-disse-ter-pelo-menos-r-7-milhoes-desviados-de-suas-contas-1690976434509_v2_4x3.jpg);
-    background-position: top right;
+    background-position: center center;
     background-size: cover;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.555);
     background-attachment: fixed;
@@ -97,7 +97,7 @@ section#img001{
 
 section#img002{
     background-image: url(../imagens/manoel3.webp);
-    background-position: bottom center;
+    background-position: center center;
     background-size: cover;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.555);
     background-attachment: fixed;
