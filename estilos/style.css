@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: 'Sriracha', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: white;
+    min-height: 100vh;
+    font-family: var(--fonte01);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align:center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-family: var(--fonte02);
+    font-size: 10vh;
+    font-variant: small-caps;
+
+
+}
+
+header > p{
+    padding-bottom: 50px;
+    font-family: var(--fonte01);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    font-family: var(--fonte03);
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    
+    
+    line-height: 2em;
+    padding-left: 30px;
+    
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+    padding-bottom: 200px;
+}
+
+section.imagem{
+    color: white;
+    background-color: rgb(32, 30, 30);
+    
+    
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.255);
+    text-shadow: 1px 1px  0px black;
+    
+}
+
+
+
+
+section#img001{
+    background-image: url(../imagens/manoel-gomes-autor-de-caneta-azul-disse-ter-pelo-menos-r-7-milhoes-desviados-de-suas-contas-1690976434509_v2_4x3.jpg);
+    background-position: top right;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.555);
+    background-attachment: fixed;
+}
+
+section#img002{
+    background-image: url(../imagens/manoel3.webp);
+    background-position: bottom center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.555);
+    background-attachment: fixed;
+    margin-bottom: 10vh;
+}
+
+footer{background-color: black;
+color: white;
+min-height: 8vh;
+text-align: center;}
+
+footer > p{
+    font-weight: bolder;
+    font-size: 1vw;
+    padding-top: 20px;
+}
+
